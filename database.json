@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "user_admin",
+      "email": "admin@propspace.com",
+      "username": "admin",
+      "name": "PropSpace Admin",
+      "phone": "+237 670 123 456",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-22T10:42:03.113Z"
+    },
+    {
+      "id": "user_owner1",
+      "email": "jean.dupont@propspace.com",
+      "username": "jeandupont",
+      "name": "Jean Dupont",
+      "phone": "+237 699 987 654",
+      "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-22T10:42:03.113Z"
+    }
+  ],
+  "passwords": {
+    "user_admin": "$2b$10$SlYYV135Bcl2wQYN5S0b0O3TqF6q5NnNNZNkK5Ag.tTRsdkyrmCw2",
+    "user_owner1": "$2b$10$SlYYV135Bcl2wQYN5S0b0O07c4GFIFnnFch3RNHlZS8OI5IfL363S"
+  },
+  "properties": [
+    {
+      "id": "prop_1",
+      "title": "Luxury 3-Bedroom Apartment Bastos",
+      "description": "Elegant, modern, and spacious fully furnished apartment situated in the high-end neighborhood of Bastos, Yaoundé. Features 24/7 security guard, backup generator, high-speed fiber internet, and panoramic views of Yaoundé mountain.",
+      "price": 450000,
+      "city": "Yaoundé",
+      "country": "Cameroon",
+      "propertyType": "Apartment",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1484154218962-a197022b5858?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "ownerId": "user_owner1",
+      "ownerName": "Jean Dupont",
+      "ownerPhone": "+237 699 987 654",
+      "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-19T10:42:03.113Z",
+      "status": "Available",
+      "currencySymbol": "FCFA",
+      "currencyCode": "XAF"
+    },
+    {
+      "id": "prop_2",
+      "title": "Chic Compact Studio Bonapriso",
+      "description": "The perfect place for business travelers and singles. Located in the heart of Bonapriso, Douala, with quick access to the airport, premium restaurants and shops. Impeccable modern design with a fully equipped kitchenette.",
+      "price": 250000,
+      "city": "Douala",
+      "country": "Cameroon",
+      "propertyType": "Studio",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "ownerId": "user_owner1",
+      "ownerName": "Jean Dupont",
+      "ownerPhone": "+237 699 987 654",
+      "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-21T10:42:03.113Z",
+      "status": "Available",
+      "currencySymbol": "FCFA",
+      "currencyCode": "XAF"
+    },
+    {
+      "id": "prop_3",
+      "title": "Beverly Hills Luxury Villa",
+      "description": "Outstanding mid-century architectural masterpiece with breathtaking infinity pool and panoramic canyon views. Grand entertaining spaces, private chef kitchen, smart home tech, and spectacular indoor-outdoor layout.",
+      "price": 4500000,
+      "city": "Los Angeles",
+      "country": "United States",
+      "propertyType": "House",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "ownerId": "user_admin",
+      "ownerName": "PropSpace Admin",
+      "ownerPhone": "+237 670 123 456",
+      "ownerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-22T06:42:03.113Z",
+      "status": "Available",
+      "currencySymbol": "$",
+      "currencyCode": "USD"
+    },
+    {
+      "id": "prop_4",
+      "title": "Elegant Boulevard Haussmann Loft",
+      "description": "Charming duplex apartment in a historic Haussmann building, featuring high ceilings, gorgeous moldwork, traditional fireplaces, and a lovely balcony overlooking Paris rooftops.",
+      "price": 2200,
+      "city": "Paris",
+      "country": "France",
+      "propertyType": "Apartment",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "ownerId": "user_owner1",
+      "ownerName": "Jean Dupont",
+      "ownerPhone": "+237 699 987 654",
+      "ownerAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-15T10:42:03.113Z",
+      "status": "Available",
+      "currencySymbol": "€",
+      "currencyCode": "EUR"
+    },
+    {
+      "id": "prop_5",
+      "title": "Modern Highrise Penthouse London",
+      "description": "Stunning state of the art apartment in central London, showcasing breathtaking views of the Thames, luxury amenities, underfloor heating, and concierge services.",
+      "price": 6500,
+      "city": "London",
+      "country": "United Kingdom",
+      "propertyType": "Apartment",
+      "imageUrls": [
+        "https://images.unsplash.com/photo-1502005229762-fc1b2381f0db?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&auto=format&fit=crop&q=80",
+        "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&auto=format&fit=crop&q=80"
+      ],
+      "ownerId": "user_admin",
+      "ownerName": "PropSpace Admin",
+      "ownerPhone": "+237 670 123 456",
+      "ownerAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=60",
+      "createdAt": "2026-06-12T10:42:03.113Z",
+      "status": "Available",
+      "currencySymbol": "£",
+      "currencyCode": "GBP"
+    }
+  ]
+}

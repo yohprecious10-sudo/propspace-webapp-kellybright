@@ -1,0 +1,6 @@
+{
+  "name": "PropSpace",
+  "description": "Real-time property listing application featuring secure JWT authentication, multi-image listing portfolios, local/URL uploads, and automatic country currency conversions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
